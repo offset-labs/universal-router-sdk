@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/universal-router-sdk",
-  "version": "1.6.1",
+  "name": "@offsetcarbon/universal-router-sdk",
+  "version": "1.6.2",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -25,7 +25,7 @@
     "prettier": "prettier --check '**/*.ts' && prettier --check '**/*.json'",
     "docs": "typedoc"
   },
-  "author": "@Uniswap",
+  "author": "@OffsetCarbon",
   "prettier": {
     "printWidth": 120,
     "semi": false,

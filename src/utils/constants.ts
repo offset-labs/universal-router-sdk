@@ -63,6 +63,12 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0xe39Ab88f8A4777030A534146A9Ca3B52bd5D43A3',
     creationBlock: 18815277,
   },
+  // arbitrum sepolia
+  [421614]: {
+    router: '0x8f53f52aeb34adf8301995b1ab825ddca83912bb',
+    weth: '0x980B62Da83eFf3D4576C647993b0c1D7faf17c73',
+    creationBlock: 9039310,
+  },
   // celo
   [42220]: {
     router: '0x643770e279d5d0733f21d6dc03a8efbabf3255b4',
