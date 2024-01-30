@@ -1,6 +1,6 @@
 {
   "name": "@offsetcarbon/universal-router-sdk",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -55,6 +55,11 @@
     "@uniswap/universal-router": "1.6.0",
     "@uniswap/v2-sdk": "^4.0.1",
     "@uniswap/v3-sdk": "^3.10.1",
+    "@offsetcarbon/router-sdk": "^1.7.5",
+    "@offsetcarbon/universal-router": "1.6.2",
+    "@offsetcarbon/sdk-core": "4.0.13",
+    "@offsetcarbon/v3-sdk": "3.10.1",
+    "@offsetcarbon/v2-sdk": "4.1.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },

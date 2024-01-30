@@ -1754,6 +1754,67 @@
     "@nomicfoundation/solidity-analyzer-win32-ia32-msvc" "0.1.0"
     "@nomicfoundation/solidity-analyzer-win32-x64-msvc" "0.1.0"
 
+"@offsetcarbon/router-sdk@^1.7.5":
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/router-sdk/-/router-sdk-1.7.5.tgz#a431a931271f4b6e1ee730a979b2a9e1d015086c"
+  integrity sha512-u7/egol1lWizsxFb3mdALSCJB9ieYwY9c5atlvS+7mYWqJUcE98QpV6lYrOODQMy8rrQygWv7/xt41Pbl1qwew==
+  dependencies:
+    "@ethersproject/abi" "^5.5.0"
+    "@offsetcarbon/sdk-core" "4.0.13"
+    "@offsetcarbon/v2-sdk" "4.1.0"
+    "@offsetcarbon/v3-sdk" "3.10.1"
+    "@uniswap/sdk-core" "^4.0.7"
+    "@uniswap/swap-router-contracts" "^1.1.0"
+    "@uniswap/v2-sdk" "^4.0.1"
+    "@uniswap/v3-sdk" "^3.10.1"
+
+"@offsetcarbon/sdk-core@4.0.13", "@offsetcarbon/sdk-core@^4.0.11":
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/sdk-core/-/sdk-core-4.0.13.tgz#2cc5db95098046036408bce517bdb265084c6afa"
+  integrity sha512-NXg5MAloDS2DwQD9Xkq0A+CrejTZJOXNRkRatx4arG03SOEw3OLlOcPnqpfedUyEXr6CUZ+QFYpim3WEkfIxEQ==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+"@offsetcarbon/universal-router@1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/universal-router/-/universal-router-1.6.2.tgz#aab23956432015a605ead7115a4bc99440d9f737"
+  integrity sha512-WHwID4HhiPv943/UVAhiFZOVjuX2gfrsUvq0S0A3kCdYKYrtnm+V83LKWD5TixhCWbMrqVTXG4l8ictXNN2alw==
+  dependencies:
+    "@openzeppelin/contracts" "4.7.0"
+    "@uniswap/v2-core" "1.0.1"
+    "@uniswap/v3-core" "1.0.0"
+
+"@offsetcarbon/v2-sdk@4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/v2-sdk/-/v2-sdk-4.1.0.tgz#b3f41655bfd0710a904d9e3300b1e2514f287e37"
+  integrity sha512-IFkhkI+Tut9DVTgplRxQqsSval+bywQOeMNckJmf6IIDTWJi4ukF+S5IaUSOEcT38WxV276na7/puy9bvb1tRQ==
+  dependencies:
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    "@offsetcarbon/sdk-core" "4.0.13"
+    "@uniswap/sdk-core" "^4.0.7"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
+"@offsetcarbon/v3-sdk@3.10.1":
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/v3-sdk/-/v3-sdk-3.10.1.tgz#ec94b08e045eaa30f40f3efca1f5e6c6e2957a09"
+  integrity sha512-SdkMgOcTw660PHKAlY5enTA2Z0x9vmoMZ1RzTj5MqVhE9nBbdKTEGtRT3ex0oDNLWLxa/95dtWLvUatqgPaIgA==
+  dependencies:
+    "@ethersproject/abi" "^5.0.12"
+    "@ethersproject/solidity" "^5.0.9"
+    "@offsetcarbon/sdk-core" "^4.0.11"
+    "@uniswap/swap-router-contracts" "^1.2.1"
+    "@uniswap/v3-periphery" "^1.1.1"
+    "@uniswap/v3-staker" "1.0.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
 "@openzeppelin/contracts@3.4.1-solc-0.7-2":
   version "3.4.1-solc-0.7-2"
   resolved "https://registry.npmjs.org/@openzeppelin/contracts/-/contracts-3.4.1-solc-0.7-2.tgz"
@@ -2326,6 +2387,15 @@
   version "1.0.0"
   resolved "https://registry.npmjs.org/@uniswap/v3-staker/-/v3-staker-1.0.0.tgz"
   integrity sha512-JV0Qc46Px5alvg6YWd+UIaGH9lDuYG/Js7ngxPit1SPaIP30AlVer1UYB7BRYeUVVxE+byUyIeN5jeQ7LLDjIw==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
+    "@uniswap/v3-core" "1.0.0"
+    "@uniswap/v3-periphery" "^1.0.1"
+
+"@uniswap/v3-staker@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@uniswap/v3-staker/-/v3-staker-1.0.1.tgz#a8c72007198a11985d9bb17c4e4838066c3055f8"
+  integrity sha512-ytHeXTyFwS2WxdbW1znqgR6bYoAZXy+1tvCz5DUZDAisv3Rt3do+KoVlg/4Is3eGTzb02HcRKUQUvZ9soCetnw==
   dependencies:
     "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
     "@uniswap/v3-core" "1.0.0"
