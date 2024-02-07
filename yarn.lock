@@ -1825,16 +1825,16 @@
     "@nomicfoundation/solidity-analyzer-win32-ia32-msvc" "0.1.0"
     "@nomicfoundation/solidity-analyzer-win32-x64-msvc" "0.1.0"
 
-"@offsetcarbon/router-sdk@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@offsetcarbon/router-sdk/-/router-sdk-1.4.0.tgz#0df63ac6680edd8c2256d0288d221464e005ab10"
-  integrity sha512-md7kb/IzSiJxhO/C7852JRoOJMAV1PkQUqxabFcOoncdreMe6fl9nRlX05kJabHCN2bqGk7COTcF60jq2W/GIw==
+"@offsetcarbon/router-sdk@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/router-sdk/-/router-sdk-1.4.1.tgz#ebd1a040be6d7b461e3cefdba99bf49e716df5c9"
+  integrity sha512-ItmRTfyJGvBbEkctiAw8XtuDYQOTy4GnNdOQFvNt5pZUj5SXGWqE5HDkPOo4pIHaLRvcpP2mtzRdSLHHTN44qg==
   dependencies:
     "@ethersproject/abi" "^5.5.0"
     "@offsetcarbon/sdk-core" "^3.2.3"
     "@offsetcarbon/swap-router-contracts" "1.3.0"
     "@offsetcarbon/v2-sdk" "^3.0.1"
-    "@offsetcarbon/v3-sdk" "^3.9.0"
+    "@offsetcarbon/v3-sdk" "^3.9.1"
 
 "@offsetcarbon/sdk-core@^3.2.3":
   version "3.2.3"
@@ -1860,10 +1860,10 @@
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
-"@offsetcarbon/universal-router@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@offsetcarbon/universal-router/-/universal-router-1.4.0.tgz#c76dcd8be05a74c1e9bcf0f18af3069b5a128bec"
-  integrity sha512-gZhGAHaofw1k8+mGLqJOTGcx6zT2YxXhSf/f1ON8PdJK0gxQDSYYcE1b7UN/QOSSU6HpXC3hWF2LOyCt0lb3cQ==
+"@offsetcarbon/universal-router@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/universal-router/-/universal-router-1.4.2.tgz#808f3e2c21d8f4588cbf99fe47791923300f72e5"
+  integrity sha512-Ul1TayvsRYl5C8avl74B6v+hKlM34Nf6DpKN9DTW8mjl3vEJ9xtBBwqVXbg6pgC+NMFCThew5CWzNFPvL0SRCg==
   dependencies:
     "@offsetcarbon/v2-core" "1.0.5"
     "@offsetcarbon/v3-core" "1.0.2"
@@ -2591,10 +2591,10 @@
     "@uniswap/lib" "^4.0.1-alpha"
     base64-sol "1.0.1"
 
-"@offsetcarbon/v3-sdk@^3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@offsetcarbon/v3-sdk/-/v3-sdk-3.9.0.tgz#9c270d6a1283fac738f939d068d51a4957f276bc"
-  integrity sha512-d3HOxMOSOF+ADa66GWb2WVHPOrxSfDREEHm5n7gP7nb8zkDjEYaSxfH9UKq5jgJa70mF7xnmEYlp3TAG9j6E5g==
+"@offsetcarbon/v3-sdk@^3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/v3-sdk/-/v3-sdk-3.9.1.tgz#74998e0f20f721de094aa6345992655f8061790f"
+  integrity sha512-05pmB9rlWcw4vDly0e/250vbRthuK59w30pDHqms5NV55eI9ga1fb8Mz0Y03QR9hbHAPbJCBpP8Lowbl894HZw==
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"
