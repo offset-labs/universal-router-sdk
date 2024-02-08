@@ -1860,10 +1860,10 @@
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
-"@offsetcarbon/universal-router@1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@offsetcarbon/universal-router/-/universal-router-1.4.2.tgz#808f3e2c21d8f4588cbf99fe47791923300f72e5"
-  integrity sha512-Ul1TayvsRYl5C8avl74B6v+hKlM34Nf6DpKN9DTW8mjl3vEJ9xtBBwqVXbg6pgC+NMFCThew5CWzNFPvL0SRCg==
+"@offsetcarbon/universal-router@1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@offsetcarbon/universal-router/-/universal-router-1.4.3.tgz#0c67f53a638719290cd457320fe358bdbb0702c6"
+  integrity sha512-CxJOfttjtlnfioDcqoOOxVsrPpf7jvQBeLWvv/TNenS0CsSJWJhl7XGk+1MstCniTA64JgeRk8Ju8Hxy3V1JRw==
   dependencies:
     "@offsetcarbon/v2-core" "1.0.5"
     "@offsetcarbon/v3-core" "1.0.2"
